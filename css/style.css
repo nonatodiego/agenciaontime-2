@@ -539,7 +539,8 @@ img {
 
 .theme-btn-two {
     position: relative;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     font-size: 16px;
     font-weight: 500;
     color: var(--chumbo-ontime);
@@ -557,6 +558,7 @@ img {
     -o-transition-duration: 400ms;
     transition-duration: 400ms;
     margin-right: 32px;
+    
 }
 
 .theme-btn-two:hover {
@@ -861,14 +863,14 @@ img {
 }
 
 .slicknav_icon-bar {
-    background-color: #fff !important;
+    background-color: var(--chumbo-ontime) !important;
 }
 
 .header-area .main-header-area .main-menu ul li .submenu {
     position: absolute;
     left: 0;
     top: 120%;
-    background: #fff;
+    background: var(--chumbo-ontime);
     width: 200px;
     z-index: 2;
     -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.06), -2px 0px 5px 1px rgba(0, 0, 0, 0.06);
@@ -3933,6 +3935,7 @@ img {
 
 .footer-contact-icon {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-contact-icon a {
@@ -3947,7 +3950,7 @@ img {
 }
 
 .footer-contact-icon a:hover {
-    color: #eb2f06;
+    color: var(--amarelo-ontime);
 }
 
 /* ----- Client Area CSS ----- */
@@ -4448,6 +4451,7 @@ img {
 
 .faq-thumb {
     padding-left: 50px;
+    padding-bottom: 24px;
 }
 
 .single_faq h5 {
@@ -6488,11 +6492,11 @@ img {
 
 #accordion .card-header {
     padding: 20px;
-
+    margin-top: 16px;
     background-color: var(--chumbo-ontime);
     border-bottom: none;
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 16px;
 }
 
 #accordion .card-header.collapsed::after {
